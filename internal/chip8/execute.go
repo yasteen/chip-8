@@ -170,6 +170,8 @@ func (c *chip8) i_display(i uint16) {
 	}
 	if overflow {
 		c.V[0xF] = 1
+	} else {
+		c.V[0xF] = 0
 	}
 }
 

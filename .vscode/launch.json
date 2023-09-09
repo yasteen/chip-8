@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/chip-8",
             "cwd": "${workspaceFolder}",
             "env": {},
-            "args": ["assets\\testdraw.ch8"]
+            "args": ["assets\\tetris.ch8"]
         }
 
     ]
